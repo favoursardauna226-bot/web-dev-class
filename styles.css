@@ -1,0 +1,89 @@
+body{
+    margin: 100px;
+    background-image: url(/photo-1763182198113-a9a8d0fe3144.png);
+    /* background-image: url(https://images.unsplash.com/photo-1763182198113-a9a8d0fe3144?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+p{
+    color: red;
+    font-size: 300%;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: right;
+}
+h5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: blue;
+}
+a{
+    border: 2px solid gold;
+    padding: 10px;
+}
+a:link{
+    color: green;
+    text-decoration: none;
+}
+a:visited{
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    color: orange;
+}
+a:active{
+    color: gray;
+}
+img{
+    float: right;
+}
+
+
+table,tr,th,td{
+    border-collapse: collapse;
+}
+/* 
+th,td{
+    background: gray;
+    border-color: red;
+    padding: 10px;
+}
+
+table{
+    border-spacing: 50px;
+
+}
+th:nth-child(odd), td:nth-child(odd){
+    background: skyblue;
+}
+
+tr:nth-child(even), td:nth-child(even){
+    background: #b14343;
+} */
+
+tr{
+    border-bottom: 1px solid burlywood;
+}
+
+tr:hover{
+    background: orange;
+}
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    float: left;
+}
+
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+} 
