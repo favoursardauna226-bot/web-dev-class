@@ -1,99 +1,223 @@
-body{
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-section{
+
+section {
     border: 3px solid #333;
-    max-width: 50%;
-     margin: auto;
+    width: 50%;
+    margin: auto;
     /* padding: 30px; */
 
 }
 
 
-header{
+header {
     padding: 20px;
     position: relative;
 }
-.logo{
+
+.logo {
     width: 150px;
     display: flex;
     justify-content: space-around;
 }
-img{
+
+img {
     border: 1px solid;
     width: 40px;
     height: 40px;
     /* background: #000; */
 }
-nav{
+
+nav {
     display: flex;
     float: right;
     justify-content: space-between;
- margin-top: -50px;
+    margin-top: -50px;
 }
-a{
+
+a {
     color: #000;
 
 }
-.content{
+
+.content {
     text-align: center;
     margin: 100px auto;
 }
 
-main{
+main {
     border: 1px solid;
     display: flex;
 }
-.left,.center,.right{
+
+.left,
+.center,
+.right {
     width: 700px;
 
     border: 1px solid;
 }
-.left{
+
+.left {
     border-left: none;
 }
-li{
-   padding: 10px;
+
+li {
+    padding: 10px;
     list-style-type: none;
 }
-h3{
+
+h3 {
     text-align: center;
 }
 
-.center{
+.center {
     padding: 30px;
 }
-.profile{
+
+.profile {
     text-decoration: none;
     color: rgb(13, 167, 218);
 }
-.right{
+
+.right {
     border-right: none;
     padding: 20px;
 }
-.testimony-container{
+
+.testimony-container {
     display: flex;
 }
-.test1,.test2,.test3{
+
+.test1,
+.test2,
+.test3 {
     border: 1px solid;
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
 }
 
-span{
+span {
     color: gray;
 }
 
-.endnote{
+.endnote {
     text-align: center;
 }
 
 
+@media screen and (max-width:567px) {
 
 
+    body {
+        border: none;
+    }
 
 
+    section {
+        width: 100%;
+        border: none;
 
+    }
 
+   
 
+    .content {
+        /*border: 1px solid; */
+        margin: 50px auto;
+        width: 100%;
+
+    }
+
+    .top,
+    .bottom {
+        background-color: silver;
+    }
+
+    header {
+        align-items: center;
+        display: inline;
+        position: relative;
+        /* border-bottom: 1xp solid; */
+
+    }
+
+    .logo,
+    nav {
+        border: none;
+        display: inline;
+        align-items: center;
+    }
+
+    .logo {
+        margin-left: 250px;
+        border-bottom: none;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    nav {
+        margin-left: 500px;
+        position: absolute;
+        left: 150px;
+        /*border: 1px solid; */
+        margin: auto;
+        display: flex;
+    }
+
+    main {
+        display: inline;
+        border: none;
+        text-align: center;
+        width: 500px;
+    }
+
+    .left,
+    .center,
+    .right {
+        width: 100%;
+        border-bottom: 1px solid;
+        border-top: none;
+    }
+
+    .left {
+        border-top: 1px solid;
+    }
+
+    ul li {
+        border-bottom: 1px;
+        background: gray;
+    }
+
+    ul li:last-child {
+        border-bottom: none;
+    }
+
+    .top,
+    .center {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border-bottom: 1px solid;
+    }
+
+    .testimony-container {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .test1,
+    .test2,
+    .test3 {
+        border: 1px solid;
+        width: 50%;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+}
