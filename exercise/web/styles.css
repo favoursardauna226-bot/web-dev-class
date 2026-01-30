@@ -55,7 +55,6 @@ main {
 .center,
 .right {
     width: 700px;
-
     border: 1px solid;
 }
 
@@ -85,21 +84,19 @@ h3 {
     border-right: none;
     padding: 20px;
 }
-
-.testimony-container {
+.testimony-container{
     display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
-
-.test1,
-.test2,
-.test3 {
+.test1,.test2,.test3{
     border: 1px solid;
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
 }
 
-span {
+span{
     color: gray;
 }
 
